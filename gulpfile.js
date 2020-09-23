@@ -58,7 +58,7 @@ function opthtml() {
 exports.opthtml = opthtml;
 
 function watchfiles() {
-	watch(['src/images/*.png'], optimage);
+	watch(['src/images/*.png'], series(optimage, createsprite));
 	watch(['src/*.css'], optcss);
 	watch(['src/*.html'], opthtml);
 }
