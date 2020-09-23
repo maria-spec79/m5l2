@@ -2,7 +2,7 @@
 
 body {
 	max-width: 1225px;
-	background: url('images/bg_all.png') no-repeat top left;
+	background: url('dist/images/bg_all.png') no-repeat top left;
 	padding: 250px 93px;
 	font-family: Open Sans, sans-serif;
 	margin: 0 auto;
@@ -42,27 +42,26 @@ body {
 
 .menu__item_last {
 	border: none;
-	background-image: url('icons/icon_settings.png');
+	background-image: url('dist/icons/icon_settings.png');
 	background-position: 16px 20px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
 
 .menu__item_c {
-	background-image: url('icons/icon_checkin.png');
+	background-image: url('dist/icons/icon_checkin.png');
 	background-position: 22px 21px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
 
 .menu__item_e {
-	background-image: url('icons/icon_events.png');
+	background-image: url('dist/icons/icon_events.png');
 	background-position: 20px 22px;
 }
 
-
 .menu__item_a {
-	background-image: url('icons/icon_account.png');
+	background-image: url('dist/icons/icon_account.png');
 	background-position: 16px 22px;
 }
 
@@ -358,26 +357,26 @@ body {
 }
 
 .profile__menu-link_user {
-	background-image: url('icons/icon_user_profile.png');
+	background-image: url('dist/icons/icon_user_profile.png');
 	background-position: 93% 55%;
 	line-height: 49px;
 }
 
 .profile__menu-link_current {
-	background-image: url('icons/icon_statistics_profile.png');
+	background-image: url('dist/icons/icon_statistics_profile.png');
 	background-position: 93% 48%;
 	background-color: #f8f3f0;
 	box-shadow: inset 3px 0 0 #4daf7b;
 }
 
 .profile__menu-link_settings {
-	background-image: url('icons/icon_settings_profile.png');
+	background-image: url('dist/icons/icon_settings_profile.png');
 	background-position: 93% 45%;
 	line-height: 42px;
 }
 
 .profile__menu-link_events {
-	background-image: url('icons/icon_events_profile.png');
+	background-image: url('dist/icons/icon_events_profile.png');
 	background-position: 93% 35%;
 	line-height: 36px;
 	border-radius: 0 0 5px 5px;
@@ -551,18 +550,18 @@ body {
 	font-weight: 700;
 	text-align: center;
 	text-indent: 0;
-	background-image: url('icons/icon_upload.png');
+	background-image: url('dist/icons/icon_upload.png');
 	background-repeat: no-repeat;
 	background-position: 51% 33%;
 }
 
 .diagram__datas_share {
-	background-image: url('icons/icon_share.png');
+	background-image: url('dist/icons/icon_share.png');
 	background-position: 49% 33%;
 }
 
 .diagram__datas_backup {
-	background-image: url('icons/icon_backup.png');
+	background-image: url('dist/icons/icon_backup.png');
 	background-position: 48% 33%;
 	border-bottom-right-radius: 5px;
 }
@@ -601,7 +600,7 @@ body {
 	color: #8e8071;
 	font-weight: 700;
 	text-indent: 60px;
-	background-image: url('icons/icon_profile.png');
+	background-image: url('dist/icons/icon_profile.png');
 	background-repeat: no-repeat;
 	background-position: 13% 55%;
 	cursor: pointer;
@@ -611,7 +610,7 @@ body {
 	width: 127px;
 	border-radius: 0 5px 5px 0;
 	text-indent: 64px;
-	background-image: url('icons/icon_edit.png');
+	background-image: url('dist/icons/icon_edit.png');
 	background-position: 26% 51%;
 }
 
@@ -810,7 +809,7 @@ body {
 .blog__stat-previews {
 	width: 34%;
 	border-right: 1px solid #fff;
-	background-image: url('icons/icon_preview.png');
+	background-image: url('dist/icons/icon_preview.png');
 	background-repeat: no-repeat;
 	background-position: 30px 15px;
 	text-indent: 63px;
@@ -819,7 +818,7 @@ body {
 .blog__stat-comments {
 	width: 33%;
 	border-right: 1px solid #fff;
-	background-image: url('icons/icon_comment.png');
+	background-image: url('dist/icons/icon_comment.png');
 	background-repeat: no-repeat;
 	background-position: 34px 15px;
 	text-indent: 66px;
@@ -827,7 +826,7 @@ body {
 
 .blog__stat-likes {
 	width: 33%;
-	background-image: url('icons/icon_like.png');
+	background-image: url('dist/icons/icon_like.png');
 	background-repeat: no-repeat;
 	background-position: 31px 16px;
 	color: #e86741;
@@ -964,7 +963,7 @@ body {
 }
 
 .contact__check:checked + .contact__label_check::before {
-	content: url('icons/icon_check.png');
+	content: url('dist/icons/icon_check.png');
 }
 
 .contact__button {
